@@ -49,6 +49,12 @@
                 }
                 else
                 {
+                    Console.WriteLine("Introduzca la linea a modificar: ");
+                    numLinea = Int32.Parse(Console.ReadLine());
+                    Console.WriteLine("Introduzca la posicion de la linea a modificar: ");
+                    posicion=Int32.Parse(Console.ReadLine());
+                    Console.WriteLine("Introduzca el texto para modificar: ");
+                    textoACambiar=Console.ReadLine();
 
                 }
             }catch (IOException e)
